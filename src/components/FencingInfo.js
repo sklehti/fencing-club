@@ -1,5 +1,8 @@
 import React from "react";
-import fencingInfoPage from "../images/fensinginfo_page.jpg";
+import fencingInfoPage from "../images/fencinginfo_page.jpg";
+import fencingInfoMobile from "../images/fencinginfo_mobile.jpg";
+import fencingInfoMobile2 from "../images/fencinginfo_mobile2.jpg";
+
 import AnimatedText from "react-animated-text-content";
 
 function FencingInfo() {
@@ -30,15 +33,30 @@ function FencingInfo() {
         </div>
       </div>
       <div className="container">
-        <img
-          src={fencingInfoPage}
-          alt="miekkailija"
-          className="img-fluid img-thumbnail"
-          style={{
-            maxWidth: "100%",
-            minWidth: "100%",
-          }}
-        ></img>
+        <div id="image2">
+          <img
+            src={fencingInfoPage}
+            alt="miekkailija"
+            className="img-fluid img-thumbnail"
+            style={{
+              maxWidth: "100%",
+              minWidth: "100%",
+            }}
+          ></img>
+        </div>
+
+        <div id="image3">
+          <img
+            src={fencingInfoMobile}
+            alt="miekkailija"
+            className="img-fluid img-thumbnail"
+            style={{
+              maxWidth: "100%",
+              minWidth: "100%",
+            }}
+          ></img>
+        </div>
+
         <div className="centered1">
           <p>
             Miekkailu on vanha taistelulaji. Miekkailun kaltainen laji on
@@ -76,6 +94,18 @@ function FencingInfo() {
             deleniti
           </p>
         </div>
+      </div>
+
+      <div id="image4">
+        <img
+          src={fencingInfoMobile2}
+          alt="miekkailija"
+          className="img-fluid img-thumbnail"
+          style={{
+            maxWidth: "100%",
+            minWidth: "100%",
+          }}
+        ></img>
       </div>
 
       <div className="text-center padding6 padding2">
