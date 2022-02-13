@@ -28,7 +28,6 @@ function Courses() {
           >
             Alkeiskurssit
           </AnimatedText>
-          {/* <h1 className="padding2">Alkeiskurssit</h1> */}
         </div>
       </div>
 
@@ -49,9 +48,10 @@ function Courses() {
       <br />
 
       <p>
-        Aliquam scelerisque ex vitae arcu feugiat condimentum. Interdum et
-        malesuada fames ac ante ipsum prims in faucibus. Nullam porttitor id
-        nunc get consequat. Proin egestas fringilla vulputate.
+        Tervetuloa syksyn 2022 alkeiskursseille. Tämä alkeiskurssi on
+        tarkoitettu kaikille yli 18 vuotiaille. Kurssikertoja on yhteensä 10.
+        Hinta on kurssille 100 euroa ja tarvittavat varusteet löytyvät
+        saliltamme.
       </p>
       <p>
         Phasellus eu augue ut dolor porta finibus. Nunc egestas malesuada

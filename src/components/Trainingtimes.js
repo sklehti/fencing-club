@@ -29,7 +29,6 @@ function Trainingtimes() {
           >
             Harjoitteluajat
           </AnimatedText>
-          {/* <h1 className="padding2">Harjoitteluajat</h1> */}
         </div>
       </div>
       <div className="row align-items-center">
@@ -66,8 +65,10 @@ function Trainingtimes() {
       </div>
       <br />
       <h5 className="text-center">TIISTAI</h5>
-      <div className="text-center">16:00 - 17:30 LASTEN KALPAMIEKKAILU </div>
-      <div className="text-center">17:30 - 19:00 AIKUISTEN KALPAMIEKKAILU </div>
+      <div className="text-center">16:00 - 17:30 LASTEN FLORETTIMIEKKAILU </div>
+      <div className="text-center">
+        17:30 - 19:00 AIKUISTEN FLORETTIMIEKKAILU{" "}
+      </div>
       <br />
       <h5 className="text-center">KESKIVIIKKO </h5>
       <div className="text-center">16:00 - 17:30 LASTEN KALPAMIEKKAILU </div>
@@ -78,7 +79,7 @@ function Trainingtimes() {
       <div className="text-center">17:30 - 19:00 AIKUISTEN KALPAMIEKKAILU </div>
       <br />
       <h5 className="text-center">PERIANTAI</h5>
-      <div className="text-center">16:00 - 17:30 LASTEN SÄILÀ MIEKKAILU </div>
+      <div className="text-center">16:00 - 17:30 LASTEN SÄILÄ MIEKKAILU </div>
       <div className="text-center">
         17:30 - 19:00 LASTEN KILPARYHMÀ (SÄILä){" "}
       </div>

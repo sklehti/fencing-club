@@ -29,7 +29,6 @@ function Homepage() {
           >
             Tervetuloa miekkailemaan!
           </AnimatedText>
-          {/* <h1 className="padding2">Tervetuloa miekkailemaan!</h1> */}
         </div>
       </div>
       <video
@@ -42,22 +41,13 @@ function Homepage() {
         <source src={video1} type="video/mp4" />
       </video>
 
-      {/* <img
-        src={homaPage1}
-        alt="kaksi miekkailijaa"
-        className="img-fluid img-thumbnail"
-        style={{
-          maxWidth: "100%",
-          minWidth: "100%",
-        }}
-      ></img> */}
       <br />
       <br />
       <p className="text-center padding3">
         Miekkailuseuramme on aloittanut toimintansa Turussa vuoden 2016 alussa.
         Seuraamme voi liittyä niin lapset kuin aikuisetkin. Järjestämme joka
-        vuoden Tammikuussa sekä Syyskuussa kalpan ja säilän alkeiskursseja. Olet
-        lämpimästi tervetullut toimintaamme mukaan!
+        vuoden Tammikuussa sekä Syyskuussa kalvan, floretin ja säilän
+        alkeiskursseja. Olet lämpimästi tervetullut toimintaamme mukaan!
       </p>
       <br />
       <p className="text-center padding4">
@@ -82,7 +72,14 @@ function Homepage() {
         style={{ maxWidth: "100%", minWidth: "100%" }}
       ></img>
 
-      <p className="text-center padding3 padding2">
+      <h4 className="text-center padding3">AJANKOHTAISIA ASIOITA:</h4>
+      <br />
+      <p className="text-center">
+        Tästä osiosta löytyy kaikki seuramme ajankohtaiset asiat. Pöivitämme
+        samat asiat myös Facebookissa sekä Instagrammissa. Linkit Facebookiin
+        sekä Instagramiin löytyvät alhaalta.
+      </p>
+      <p className="text-center">
         Lorem ipsum dolor sit amet, proin consectetuer, feugiat ornare eleifend
         ex libero et, erat suspendisse faucibus voluptate. Elit ante platea
         metus, habitant est ligula, egestas nam, mauris adipiscing iaculis, mi

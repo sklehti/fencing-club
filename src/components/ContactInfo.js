@@ -58,15 +58,6 @@ function ContactInfo() {
     <div>
       <div className="container">
         <div id="image"></div>
-        {/* <img
-          src={contactInfoPage}
-          alt="miekkailija"
-          className="img-fluid img-thumbnail"
-          style={{
-            maxWidth: "100%",
-            minWidth: "100%",
-          }}
-        ></img> */}
         <div className="centered">
           <h3 className="text-style">Yhteystiedot:</h3>
           <div className="text-style">Kulmalantie 65</div>

@@ -27,7 +27,6 @@ function FencingInfo() {
           >
             Miekkailun historia
           </AnimatedText>
-          {/* <h1 className="padding2">Miekkailun historiaa</h1> */}
         </div>
       </div>
       <div className="container">
@@ -42,8 +41,8 @@ function FencingInfo() {
         ></img>
         <div className="centered1">
           <p>
-            Miekkailun historia on vanha taistelulaji. Miekkailun kaltainen laji
-            on löydetty jo Ramses Ill:n ajalta. Tuolloin kilpailijoiden aseina
+            Miekkailu on vanha taistelulaji. Miekkailun kaltainen laji on
+            löydetty jo Ramses Ill:n ajalta. Tuolloin kilpailijoiden aseina
             toimi keppi. Osa kilpailijoista käytti myös maskia kasvojen suojana.
           </p>
           <p>

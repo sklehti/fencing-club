@@ -112,6 +112,14 @@ p {
     margin-left: 2%;
     margin-right: 2%;
   }
+
+  #image {
+    background-image: url("./images/contactinfo_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+  }
 }
 
 @media only screen and (min-width: 820px) {
@@ -126,6 +134,14 @@ p {
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
+  }
+
+  #image {
+    background-image: url("./images/contactinfo_page1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
   }
 }
 
@@ -153,13 +169,13 @@ p {
   text-align: center;
 }
 
-#image {
+/* #image {
   background-image: url("./images/contactinfo_page1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 750px;
-}
+} */
 
 .text-style {
   text-shadow: 5px 5px 5px black;
